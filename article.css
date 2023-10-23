@@ -1,0 +1,60 @@
+body{
+    background-color: blueviolet;
+}
+div{
+    background-color: pink;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    column-gap: 40px;
+
+}
+div1,div2,div3,div4{
+    display: flex;
+    background-color: purple;
+    position: relative;
+   display: inline;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+
+
+}
+img{
+    width: 370px;
+    height:270px;
+}
+nav{
+    height:100px ;
+    width: ;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    background-image: url(" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrjK-SC9Rx8lOCyYuukAVbGpi_Up-xhkTEGJ3WJ3DACtzdy5gNUKub_EWDRLcUT96reM&usqp=CAU") ;
+}
+h1{
+    display: flex;
+font-family: cursive;
+font-size: 70px;
+padding-top:00px ;
+padding-bottom:0px ;
+margin-top:0px ;
+margin-bottom:50px ;
+justify-content: center;
+color:violet;
+
+
+
+}
+a{
+position: absolute;
+left:70% ;
+top: 50%;
+color: black;
+font-size: 30px;
+}
+
